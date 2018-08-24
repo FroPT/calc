@@ -1,3 +1,6 @@
+/*
+ * Implement all your JavaScript in this file!
+ */
 
 var currentValue = [];
 var recolhaPrimeiroOperando = true;
@@ -51,6 +54,9 @@ $('.button').on('click', function(e){
 		primeiroOperando = [];
 		primeiroOperando.push(currentValue);
 		recolhaPrimeiroOperando = false;
+		segundoOperando = [];
+		recolhaSegundoOperando = true;
+		operador = '';
 		
 	} else if (btn != '=' && btn != 'cls' && isNaN(btn) && segundoOperando.length > 0 ) { 
 		recolhaSegundoOperando = false;
@@ -82,4 +88,6 @@ $('.button').on('click', function(e){
 		recolhaSegundoOperando = true;
 	}
 });
+
+
 
