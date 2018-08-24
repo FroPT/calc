@@ -1,0 +1,65 @@
+<html>
+<head>
+<script src="jquery.js"></script>
+
+<style>
+button {
+font-size: 200%;
+width: 40px;
+}
+
+input {
+font-size: 14px;
+height: 40px;
+text-align: right;
+}
+
+</style>
+</head>
+
+<body>
+<table>
+<tr>
+  <td colspan="4"><input id="display" name="display" disabled></input></td>
+</tr>
+
+<tr>
+  <td><button class="button number" id="button1" value="1">1</button></td>
+  <td><button class="button number" id="button2" value="2">2</button></td>
+  <td><button class="button number" id="button3" value="3">3</button></td>
+  <td><button class="button operator" value="+" id="addButton">+</button></td>
+</tr>
+<tr>
+  <td><button class="button number" id="button4" value="4">4</button></td>
+  <td><button class="button number" id="button5" value="5">5</button></td>
+  <td><button class="button number" id="button6" value="6">6</button></td>
+  <td><button class="button operator" value="-" id="subtractButton">-</button></td>
+</tr>
+<tr>
+  <td><button class="button number" id="button7" value="7">7</button></td>
+  <td><button class="button number" id="button8" value="8">8</button></td>
+  <td><button class="button number" id="button9" value="9">9</button></td>
+  <td><button class="button operator" value="*" id="multiplyButton">*</button></td>
+</tr>
+<tr>
+  <td><button class="cls button operator" value="cls" id="clearButton">C</button></td>
+  <td><button class="button number" id="button0" value="0">0</button></td>
+  <td><button class="button equals" value="=" id="equalsButton" name="equals">=</button></td>
+  <td><button class="button operator" value="/" id="divideButton">&#247;</button></td>
+</tr>
+
+
+
+</table>
+
+<span id='output'><!-- Use this span for writing debug messages or anything else you think will help! --></span>
+
+<script src="calc.js"></script>
+
+
+</body>
+
+
+<!-- O Homework ta aqui: APAGAR ESTE COMMENT ANTES DE ENTREGAR !!!
+ https://courses.edx.org/courses/course-v1:PennX+SD4x+2T2017/courseware/179922122c5f4cb180c57e33213faaf4/6f11927d2bfd4809b04eaa804a874711/?child=first -->
+</html>
