@@ -1,7 +1,6 @@
 
 var currentValue = [];
 var recolhaPrimeiroOperando = true;
-var recolhaOperador = false;
 var recolhaSegundoOperando = false;
 var primeiroOperando = [];
 var operador = '';
